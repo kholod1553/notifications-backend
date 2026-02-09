@@ -1,5 +1,5 @@
 import express from "express";
-import notificationRoutes from "./modules/notifications/notification.routes.js";
+import notificationRoutes from "./modules/notifications/notifications.routes.js";
 const app = express();
 
 app.use(express.json());
