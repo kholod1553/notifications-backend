@@ -1,3 +1,4 @@
+import { supabase } from "../../config/supabase.js";
 export const getNotifications = async (req, res) => {
   const { data } = await supabase
     .from("notifications")
